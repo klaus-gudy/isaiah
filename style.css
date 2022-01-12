@@ -1,0 +1,69 @@
+body{
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.main-section{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-image:linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(img/maid.jpg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section h1{
+    color: #FFD523;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.brand{
+    color:#F7FF56;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+
+    color: #fff;
+    border-radius: 20px;
+}
+
+.menu a:hover{
+    color:#000;
+    background: #fff;
+}
+
+.about{
+    min-height: 100vh;
+}
