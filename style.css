@@ -53,6 +53,14 @@ header{
     line-height: 80px;
 }
 
+.main-section p{
+    color: #FFD523;
+    
+    /* font-weight: 700;
+    font-size: 60px;
+    line-height: 80px; */
+}
+
 .brand{
     color:#F7FF56;
     text-decoration: none;
@@ -91,7 +99,6 @@ header .icon{
 }
 
 .about{
-    min-height: 100vh;
     padding: 50px;
 }
 
