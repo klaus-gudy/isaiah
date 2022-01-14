@@ -102,6 +102,36 @@ header .icon{
     padding: 50px;
 }
 
+.service{
+    background-color: #000;
+    color: #F7F7F7;
+    min-height: 60vh;
+}
+
+.contact{
+    background-color: #000;
+    color: #F7F7F7;
+    min-height: 60vh;
+}
+.service h2{
+    color: #FFD523;
+}
+
+.contact h2{
+    color: #FFD523;
+}
+
+.icon-box{
+    background-color: #F7F7F7;
+    color: #000;
+    border-radius: 10px;
+}
+
+.title h3{
+    color: #FFD523;
+}
+
+
 @media (max-width: 960px){
     header .icon{
         display: block;
